@@ -2,7 +2,7 @@ import numpy as np
 from numpy import linalg as LA
 
     
-def plsr(X,Y,factors,thre,T,U,P,Q,W,B):
+def plsr_train(X,Y,factors,thre,T,U,P,Q,W,B):
     rows=len(X)
     colsX=len(X[0])
     colsY=len(Y[0])
