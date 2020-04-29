@@ -8,7 +8,7 @@ or
 
 This implementation contains three different versions of plsr algorithm: 1. plain python 2. jit optimized version 3. cythonlized version. The execution and comparison of running speed of all 3 versions can be found in example/fp.ipynb
 
-It can be imported by "import plsr" and to use cythonlized functions "from plsr.plsr_cy.plsr_cython import plsr_cython,predict_cython". Detailed use cases can be found in test directory.
+It can be imported by "import plsr" and to use cythonlized functions "from plsr.plsr_cy.plsr_cython import plsr_cython,predict_cython". Detailed use cases can be found in test directory. Note: cythonlied module in the package is of different usage than the cythonlied method used in ipynb file.
 
 
 Execution of the algorithm on the real-world data can be found in example/plsr_test_real_data.ipynb.
